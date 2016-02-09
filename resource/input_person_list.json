@@ -1,0 +1,3077 @@
+[
+    {
+        "results_his": "7260", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Luke S. Zettlemoyer", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer Science, North Carolina State University, EGRC-CSC Box 7534, Raleigh, NC", 
+        "aid": "53f438f8dabfaedf435989b8", 
+        "id": 24, 
+        "results_her": "15900"
+    }, 
+    {
+        "results_his": "9310000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Son Nguyen", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "VA Medical Center, Salem, VA & Carilion Clinic, Roanoke, VA.", 
+        "aid": "53f42d53dabfaec22ba1701b", 
+        "id": 1222, 
+        "results_her": "3340000"
+    }, 
+    {
+        "results_his": "776000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Aravind K. Joshi", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Pennsylvania, Philadelphia, PA", 
+        "aid": "53f64f3adabfae0633f16ae8", 
+        "id": 2056, 
+        "results_her": "410000"
+    }, 
+    {
+        "results_his": "64900000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Paul Bennett", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "?", 
+        "affiliation": "Microsoft Research", 
+        "aid": "53f45338dabfaee43ecb0999", 
+        "id": 1239, 
+        "results_her": "44900000"
+    }, 
+    {
+        "results_his": "433000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Ankit Agrawal", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Northwestern University, Evanston, IL", 
+        "aid": "53f78a1edabfae8faa4963ed", 
+        "id": 400, 
+        "results_her": "148000"
+    }, 
+    {
+        "results_his": "169000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Rachel Pottinger", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "University of British Columbia, Canada", 
+        "aid": "53f45367dabfaeecd69dff47", 
+        "id": 1130, 
+        "results_her": "112000"
+    }, 
+    {
+        "results_his": "24400", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Tarek F. Abdelzaher", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign", 
+        "aid": "54104b8bdabfae44f0895ac3", 
+        "id": 889, 
+        "results_her": "14500"
+    }, 
+    {
+        "results_his": "55400", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Ramakrishna Nemani", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "NASA Ames Research Center", 
+        "aid": "53f44a03dabfaedd74dfd348", 
+        "id": 683, 
+        "results_her": "7060"
+    }, 
+    {
+        "results_his": "102000", 
+        "name_zh": null, 
+        "language": "\u5176\u4ed6", 
+        "gender": "male", 
+        "name": "Karl Aberer", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "EPFL, Switzerland", 
+        "aid": "53f492d9dabfaeb237f8045b", 
+        "id": 1691, 
+        "results_her": "69000"
+    }, 
+    {
+        "results_his": "12800000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Robert L. Grossman", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Chicago", 
+        "aid": "53f37e84dabfae4b349ee6e2", 
+        "id": 751, 
+        "results_her": "770000"
+    }, 
+    {
+        "results_his": "2540000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Guy L. Steele", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Thinking Machines Corporation", 
+        "aid": "53f4613edabfaeee22a40bf5", 
+        "id": 843, 
+        "results_her": "1530000"
+    }, 
+    {
+        "results_his": "376000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "David Mazieres", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "New York University", 
+        "aid": "54313b0ddabfae8f2913abce", 
+        "id": 1768, 
+        "results_her": "79600"
+    }, 
+    {
+        "results_his": "298000", 
+        "name_zh": null, 
+        "language": "German\uff08\u5fb7\u8bed\uff09", 
+        "gender": "male", 
+        "name": "Gerhard Weikum", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "DEU\u5fb7\u56fd", 
+        "affiliation": "Max-Planck-Institut f\u00fcr Informatik, Saarbr\u00fccken, Germany", 
+        "aid": "53f4481edabfaee1c0af37ac", 
+        "id": 1129, 
+        "results_her": "93400"
+    }, 
+    {
+        "results_his": "517000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Frank W. Hartel", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Psychiatry|University of Chicago", 
+        "aid": "53f43705dabfaedce5534d22", 
+        "id": 1663, 
+        "results_her": "198000"
+    }, 
+    {
+        "results_his": "36300000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Kirk L. Johnson", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Laboratory for Computer Science|Massachusetts Institute of Technology", 
+        "aid": "53f4b2a1dabfaedce5646374", 
+        "id": 1770, 
+        "results_her": "32100000"
+    }, 
+    {
+        "results_his": "318000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Ian H. Witten", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Department of Computer Science|University of Waikato", 
+        "aid": "53f48bb7dabfaea7cd1cca6f", 
+        "id": 1110, 
+        "results_her": "237000"
+    }, 
+    {
+        "results_his": "2760000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Mark Horowitz", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Stanford University", 
+        "aid": "53f45512dabfaefedbb4bdde", 
+        "id": 81, 
+        "results_her": "1140000"
+    }, 
+    {
+        "results_his": "314000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Edward A. Macnair", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "IBM Thomas J. Watson Research Center, Yorktown Heights, New York", 
+        "aid": "53f43120dabfaee4dc748fe3", 
+        "id": 1414, 
+        "results_her": "95500"
+    }, 
+    {
+        "results_his": "15400", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Gabriele Musillo", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "University of Geneva, Geneva, Switzerland", 
+        "aid": "53f47d40dabfaee4dc8a51a4", 
+        "id": 1910, 
+        "results_her": "1580"
+    }, 
+    {
+        "results_his": "40300", 
+        "name_zh": null, 
+        "language": "Japanese\uff08\u65e5\u8bed\uff09", 
+        "gender": "male", 
+        "name": "Takuji Tokiwa", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "JPN\u65e5\u672c", 
+        "affiliation": "University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan", 
+        "aid": "53f46cf8dabfaee43ed10b22", 
+        "id": 587, 
+        "results_her": "4930"
+    }, 
+    {
+        "results_his": "401000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Ashutosh Saxena", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Computer Science Department, Stanford University, Stanford, CA", 
+        "aid": "5486043edabfae8a11fb2eb3", 
+        "id": 146, 
+        "results_her": "330000"
+    }, 
+    {
+        "results_his": "468000", 
+        "name_zh": null, 
+        "language": "Chinese\uff08\u4e2d\u6587\uff09", 
+        "gender": "male", 
+        "name": "Vincent S. Tseng", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CHN\u4e2d\u56fd", 
+        "affiliation": "Department of Computer Science and Information Engineering, National Cheng Kung University, Taiwan, ROC", 
+        "aid": "53f556b8dabfaea7cd1d5acf", 
+        "id": 1257, 
+        "results_her": "613000"
+    }, 
+    {
+        "results_his": "190000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Boon Thau Loo", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Pennsylvania", 
+        "aid": "53f49aeedabfaeb22f572ef7", 
+        "id": 1837, 
+        "results_her": "209000"
+    }, 
+    {
+        "results_his": "39300", 
+        "name_zh": null, 
+        "language": "\u5176\u4ed6", 
+        "gender": "male", 
+        "name": "Kees Verstoep", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Vrije Universiteit, Amsterdam, The Netherlands", 
+        "aid": "53f438a0dabfaee02acdf5ea", 
+        "id": 1786, 
+        "results_her": "2550"
+    }, 
+    {
+        "results_his": "212000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Asa Ben-Hur", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Colorado State University", 
+        "aid": "54482545dabfae87b7de15da", 
+        "id": 179, 
+        "results_her": "121000"
+    }, 
+    {
+        "results_his": "305000000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Nicholas Fitzgerald", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "University of British Columbia", 
+        "aid": "53f4c6c4dabfaee57877bdec", 
+        "id": 2022, 
+        "results_her": "687000"
+    }, 
+    {
+        "results_his": "373000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Chris Piech", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "?", 
+        "affiliation": "Stanford University, Stanford, CA, USA", 
+        "aid": "53f3929fdabfae4b34a5e581", 
+        "id": 35, 
+        "results_her": "373000"
+    }, 
+    {
+        "results_his": "159000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Prasoon Tiwari", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Univ. of Illinois at Urbana-Champaign, Urbana", 
+        "aid": "548439bedabfae9b40132d7b", 
+        "id": 1521, 
+        "results_her": "154000"
+    }, 
+    {
+        "results_his": "83000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Nick Cercone", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "Dalhousie University, Canada", 
+        "aid": "53f48af2dabfaea6f377b497", 
+        "id": 925, 
+        "results_her": "50900"
+    }, 
+    {
+        "results_his": "5630000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Mark S. Ackerman", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Michigan, Ann Arbor, MI, USA", 
+        "aid": "5448aa63dabfae87b7e5d43b", 
+        "id": 1974, 
+        "results_her": "937000"
+    }, 
+    {
+        "results_his": "27000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Omid Fatemieh", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign, Urbana, IL", 
+        "aid": "53f47a29dabfaee4dc89a59d", 
+        "id": 1176, 
+        "results_her": "1520"
+    }, 
+    {
+        "results_his": "56200", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Chris Kucharik", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Wisconsin, Madison, Wisconsin 53706, USA", 
+        "aid": "53f4350cdabfaedce5523352", 
+        "id": 711, 
+        "results_her": "56800"
+    }, 
+    {
+        "results_his": "18900000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Christopher Manning", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Stanford University, Stanford, CA", 
+        "aid": "53f42d6bdabfaee1c0a33f81", 
+        "id": 271, 
+        "results_her": "1020000"
+    }, 
+    {
+        "results_his": "214000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Aaron Mannes", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Maryland", 
+        "aid": "53f44cf8dabfaec09f1e2d08", 
+        "id": 1618, 
+        "results_her": "248000"
+    }, 
+    {
+        "results_his": "504000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Michael A. Wooldridge", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "California Digital Library, Oakland, CA", 
+        "aid": "53f46a87dabfaee4dc85ec9c", 
+        "id": 290, 
+        "results_her": "490000"
+    }, 
+    {
+        "results_his": "87700", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Cody Buntain", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer Science, University of Maryland, College Park, 20742, USA", 
+        "aid": "53f4cc14dabfaeebddf8082a", 
+        "id": 1611, 
+        "results_her": "13100"
+    }, 
+    {
+        "results_his": "473000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Ion Stoica", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of California, Berkeley", 
+        "aid": "53f4806cdabfae963d25a184", 
+        "id": 1757, 
+        "results_her": "344000"
+    }, 
+    {
+        "results_his": "13400", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Emmett Witchel", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer Sciences|University of Texas at Austin", 
+        "aid": "53f4cb31dabfaeeb15f805ee", 
+        "id": 1798, 
+        "results_her": "10200"
+    }, 
+    {
+        "results_his": "341000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Raoul Rivas", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign, Urbana, IL, USA", 
+        "aid": "53f42f22dabfaee4dc72fb1b", 
+        "id": 1242, 
+        "results_her": "231000"
+    }, 
+    {
+        "results_his": "102000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Avraham Leff", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer Science|Columbia University", 
+        "aid": "548c56e2dabfaed7b5fa42c2", 
+        "id": 1321, 
+        "results_her": "48300"
+    }, 
+    {
+        "results_his": "61400", 
+        "name_zh": null, 
+        "language": "Japanese\uff08\u65e5\u8bed\uff09", 
+        "gender": "male", 
+        "name": "Koki Uchiyama", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "JPN\u65e5\u672c", 
+        "affiliation": "hottolink, Inc., Tokyo, Japan", 
+        "aid": "53f459e4dabfaedd74e3b738", 
+        "id": 557, 
+        "results_her": "59300"
+    }, 
+    {
+        "results_his": "33500000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "David G. Andersen", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Carnegie Mellon University", 
+        "aid": "5440855edabfae805a6ca9e4", 
+        "id": 1744, 
+        "results_her": "5290000"
+    }, 
+    {
+        "results_his": "9030", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Chris Lesniewski-Laas", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Massachusetts Institute of Technology", 
+        "aid": "53f436fedabfaedce5534988", 
+        "id": 1765, 
+        "results_her": "2380"
+    }, 
+    {
+        "results_his": "485000", 
+        "name_zh": null, 
+        "language": "German\uff08\u5fb7\u8bed\uff09", 
+        "gender": "male", 
+        "name": "Gerard Cagney", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "DEU\u5fb7\u56fd", 
+        "affiliation": "Conway Institute, University College Dublin, Belfield, Dublin 4, Ireland", 
+        "aid": "5408d0e8dabfae450f444244", 
+        "id": 113, 
+        "results_her": "334000"
+    }, 
+    {
+        "results_his": "337000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Timothy M. Mcphillips", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Genome Center, University of California Davis CA", 
+        "aid": "5440f09cdabfae805a70b9e4", 
+        "id": 1725, 
+        "results_her": "82600"
+    }, 
+    {
+        "results_his": "45700", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Daniel Vladusic", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "XLAB d.o.o., Ljubljana, Slovenia", 
+        "aid": "53f47f94dabfaee43ed54190", 
+        "id": 1554, 
+        "results_her": "3150"
+    }, 
+    {
+        "results_his": "164000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Philipp Koehn", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "University of Edinburgh", 
+        "aid": "54854957dabfae9b4013354b", 
+        "id": 2038, 
+        "results_her": "243000"
+    }, 
+    {
+        "results_his": "29700", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Frank C.P. Holstege", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Whitehead Institute for Biomedical Research, 9 Cambridge Center, Cambridge, Massachusetts 02142, USA", 
+        "aid": "53f4317cdabfaee1c0a68d0d", 
+        "id": 107, 
+        "results_her": "6180"
+    }, 
+    {
+        "results_his": "284000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "John Hopcroft", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Cornell University", 
+        "aid": "53f31b3edabfae9a84435d77", 
+        "id": 380, 
+        "results_her": "146000"
+    }, 
+    {
+        "results_his": "51100", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Gaj Vidmar", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "University of Ljubljana, Faculty of Medicine, Institute of Biomedical Informatics, Ljubljana, Slovenia", 
+        "aid": "53f3a9addabfae4b34aef01e", 
+        "id": 1588, 
+        "results_her": "12200"
+    }, 
+    {
+        "results_his": "81800", 
+        "name_zh": null, 
+        "language": "German\uff08\u5fb7\u8bed\uff09", 
+        "gender": "male", 
+        "name": "Arthur Gretton", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "DEU\u5fb7\u56fd", 
+        "affiliation": "MPI for Biological Cybernetics, T\u00fcbingen, Germany", 
+        "aid": "53f43264dabfaedce55051e5", 
+        "id": 896, 
+        "results_her": "77500"
+    }, 
+    {
+        "results_his": "508000", 
+        "name_zh": null, 
+        "language": "\u5176\u4ed6", 
+        "gender": "male", 
+        "name": "Andrew S. Tanenbaum", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Vrije Universiteit, Amsterdam, The Netherlands", 
+        "aid": "5448ea4edabfae87b7e939dd", 
+        "id": 1738, 
+        "results_her": "122000"
+    }, 
+    {
+        "results_his": "24300", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "John C. Duchi", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA", 
+        "aid": "53f46bd6dabfaeee22a6808a", 
+        "id": 115, 
+        "results_her": "70700"
+    }, 
+    {
+        "results_his": "834000", 
+        "name_zh": null, 
+        "language": "Chinese\uff08\u4e2d\u6587\uff09", 
+        "gender": "male", 
+        "name": "Eric P. Xing", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Carnegie Mellon University, Pittsburgh, PA", 
+        "aid": "53f64ec9dabfae0633f1656d", 
+        "id": 2080, 
+        "results_her": "700000"
+    }, 
+    {
+        "results_his": "186000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Gene Spafford", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Purdue Univ., Lafayette, IN", 
+        "aid": "53f47cbadabfaec09f293df6", 
+        "id": 1095, 
+        "results_her": "130000"
+    }, 
+    {
+        "results_his": "11600", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Diego Klabjan", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Mechanical and Industrial Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801", 
+        "aid": "53f43508dabfaeb22f4658a2", 
+        "id": 1146, 
+        "results_her": "5120"
+    }, 
+    {
+        "results_his": "428000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "John J. Turek", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Basic Medical Sciences, School of Veterinary Medicine, Purdue University, 1246 Lynn Hall, West Lafayette, IN 47907-1246, USA", 
+        "aid": "53f439f9dabfaee4dc7a38a6", 
+        "id": 1477, 
+        "results_her": "351000"
+    }, 
+    {
+        "results_his": "32700", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Laks V.S. Lakshmanan", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "University of British Columbia, Vancouver, BC, Canada", 
+        "aid": "53f479c3dabfae8a6845beaa", 
+        "id": 868, 
+        "results_her": "23400"
+    }, 
+    {
+        "results_his": "14100000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Marc Vidal", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Center for Cancer Systems Biology and Department of Cancer Biology, Dana-Farber Cancer Institute and Department of", 
+        "aid": "53f5671ddabfae63d5f8045b", 
+        "id": 174, 
+        "results_her": "548000"
+    }, 
+    {
+        "results_his": "64000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Peter Bajcsy", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "National Center for Supercomputing Applications|University of Illinois at Urbana-Champaign", 
+        "aid": "5405a1ecdabfae8faa5ebc71", 
+        "id": 1012, 
+        "results_her": "24600"
+    }, 
+    {
+        "results_his": "414000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "David H. Laidlaw", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Brown University", 
+        "aid": "548a2f7bdabfaed7b5fa3fe1", 
+        "id": 142, 
+        "results_her": "425000"
+    }, 
+    {
+        "results_his": "66900", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Isaac G. Councill", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "The Pennsylvania State University, University Park, PA", 
+        "aid": "54892dd7dabfaed7b5fa397d", 
+        "id": 1822, 
+        "results_her": "24000"
+    }, 
+    {
+        "results_his": "346000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Aditya Khosla", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Massachusetts Institute of Technology", 
+        "aid": "53f4ce76dabfaeedd377bd71", 
+        "id": 349, 
+        "results_her": "357000"
+    }, 
+    {
+        "results_his": "1430000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Daniel S. Weld", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Washington, Seattle, WA", 
+        "aid": "53f47ec3dabfae9126cc4656", 
+        "id": 2005, 
+        "results_her": "736000"
+    }, 
+    {
+        "results_his": "20000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Brij M. Masand", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "Thinking Machines Corp., Cambridge, MA", 
+        "aid": "53f4380bdabfaee1c0aac82a", 
+        "id": 1475, 
+        "results_her": "4380"
+    }, 
+    {
+        "results_his": "39900", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Salvatore J. Stolfo", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Columbia University", 
+        "aid": "53f48ba5dabfaea7cd1cc69b", 
+        "id": 1298, 
+        "results_her": "27400"
+    }, 
+    {
+        "results_his": "922000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Nitin Agarwal", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Arizona State University, Tempe, AZ", 
+        "aid": "53f42e5adabfaec09f12133c", 
+        "id": 1365, 
+        "results_her": "448000"
+    }, 
+    {
+        "results_his": "15100000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Eric G. Stephan", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Pacific Northwest National Laboratory", 
+        "aid": "53f433bedabfaedf4356511b", 
+        "id": 1719, 
+        "results_her": "791000"
+    }, 
+    {
+        "results_his": "1460000", 
+        "name_zh": null, 
+        "language": "Chinese\uff08\u4e2d\u6587\uff09", 
+        "gender": "male", 
+        "name": "Chris Ding", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, Texas", 
+        "aid": "53f48cf9dabfaea7cd1d0cc4", 
+        "id": 1181, 
+        "results_her": "9950000"
+    }, 
+    {
+        "results_his": "27700000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Kevin C. Chang", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois, Urbana-Champaign, Illinois", 
+        "aid": "53f43204dabfaec09f14f159", 
+        "id": 1077, 
+        "results_her": "6790000"
+    }, 
+    {
+        "results_his": "686000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Bevan K. Jones", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Brown University, Providence, RI", 
+        "aid": "53f42dccdabfaedf4351c385", 
+        "id": 1952, 
+        "results_her": "685000"
+    }, 
+    {
+        "results_his": "866000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Michael J. Kearns", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer and Information Science, University of Pennsylvania, Philadelphia, PA 19104, USA", 
+        "aid": "53f43a34dabfaee43ec537f3", 
+        "id": 240, 
+        "results_her": "408000"
+    }, 
+    {
+        "results_his": "51400", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Yaakov Kogan", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "AT&T Labs, Middletown, NJ", 
+        "aid": "53f42d95dabfaeb2acfed015", 
+        "id": 1456, 
+        "results_her": "41100"
+    }, 
+    {
+        "results_his": "420000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Varun Ganapathi", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "?", 
+        "affiliation": "Department of Computer Science|Stanford University", 
+        "aid": "53f436b4dabfaee4dc785729", 
+        "id": 54, 
+        "results_her": "223000"
+    }, 
+    {
+        "results_his": "64200", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Yarden Katz", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Maryland Information and Network Dynamics Lab|University of Maryland", 
+        "aid": "53f468aedabfaee02ad9df08", 
+        "id": 1614, 
+        "results_her": "61600"
+    }, 
+    {
+        "results_his": "2760", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Chris Mario Christoudias", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Computer Science and Artificial Intelligence Laboratory, Massachussetts Institute of Technology, Cambridge, MA 02139, USA", 
+        "aid": "53f471b0dabfaec09f26b68f", 
+        "id": 2075, 
+        "results_her": "1600"
+    }, 
+    {
+        "results_his": "48900", 
+        "name_zh": null, 
+        "language": "Japanese\uff08\u65e5\u8bed\uff09", 
+        "gender": "male", 
+        "name": "Kazunori Kawauchi", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "JPN\u65e5\u672c", 
+        "affiliation": "Nihon University, Tokyo, Japan.", 
+        "aid": "53f4650fdabfaee02ad8f0a6", 
+        "id": 809, 
+        "results_her": "4580"
+    }, 
+    {
+        "results_his": "6780", 
+        "name_zh": null, 
+        "language": "\u5176\u4ed6", 
+        "gender": "male", 
+        "name": "Raoul Bhoedjang", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Department of Computer Science|Department of Computer Science|Vrije Universiteit", 
+        "aid": "53f39a5adabfae4b34a8ea10", 
+        "id": 1751, 
+        "results_her": "897"
+    }, 
+    {
+        "results_his": "925000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Matja Gams", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Jozef Stefan Institute|Department of Intelligent Systems", 
+        "aid": "53f45459dabfaee2a1d6c27a", 
+        "id": 1596, 
+        "results_her": "283000000"
+    }, 
+    {
+        "results_his": "111000000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Mike Collins", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Medicine and Division of Cardiology, University of Southern California, Los Angeles, California, USA", 
+        "aid": "53f444acdabfaeee229f1151", 
+        "id": 206, 
+        "results_her": "87400000"
+    }, 
+    {
+        "results_his": "16400000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Robert Grossman", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Chicago", 
+        "aid": "53f642eedabfaed4c40f3cc4", 
+        "id": 1513, 
+        "results_her": "5770000"
+    }, 
+    {
+        "results_his": "119000000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Michael Collins", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "MIT CSAIL, Cambridge, MA", 
+        "aid": "53f64df6dabfae0633f16116", 
+        "id": 2027, 
+        "results_her": "88000000"
+    }, 
+    {
+        "results_his": "352000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Daniele Turi", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "Information Management Group|Department of Computer Science|University of Manchester", 
+        "aid": "53f42f9bdabfaec22ba3439f", 
+        "id": 1622, 
+        "results_her": "88500"
+    }, 
+    {
+        "results_his": "378000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "James A. Hendler", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Univ. of Maryland, College Park", 
+        "aid": "53f5b5f2dabfae4b5bf8045b", 
+        "id": 1683, 
+        "results_her": "325000"
+    }, 
+    {
+        "results_his": "43500", 
+        "name_zh": null, 
+        "language": "\u5176\u4ed6", 
+        "gender": "male", 
+        "name": "Omri Abend", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Hebrew University of Jerusalem", 
+        "aid": "53f4d593dabfaeedd77833ba", 
+        "id": 1864, 
+        "results_her": "18000"
+    }, 
+    {
+        "results_his": "56900", 
+        "name_zh": null, 
+        "language": "Chinese\uff08\u4e2d\u6587\uff09", 
+        "gender": "male", 
+        "name": "Hyungsul Kim", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign", 
+        "aid": "53f437e6dabfaedf4358d7a3", 
+        "id": 983, 
+        "results_her": "10300"
+    }, 
+    {
+        "results_his": "44700", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Karthik Kambatla", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Dept. of Computer Science, Purdue University", 
+        "aid": "53f3827ddabfae4b349fe2b9", 
+        "id": 603, 
+        "results_her": "1170"
+    }, 
+    {
+        "results_his": "364000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Wo-Shun Luk", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "School of Computing Science, Simon Fraser University, Canada", 
+        "aid": "53f432c6dabfaee4dc75dd2e", 
+        "id": 1067, 
+        "results_her": "214000"
+    }, 
+    {
+        "results_his": "37900", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Pericles A. Mitkas", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Aristotle University of Thessaloniki, Greece", 
+        "aid": "53f4302fdabfaeb22f42b675", 
+        "id": 1408, 
+        "results_her": "8350"
+    }, 
+    {
+        "results_his": "545000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Anupam Joshi", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer Science and Electrical Engineering|University of Maryland", 
+        "aid": "53f4abc8dabfaecc2177b6ec", 
+        "id": 1099, 
+        "results_her": "448000"
+    }, 
+    {
+        "results_his": "17700000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Andrew C. Gallagher", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Eastman Kodak Company", 
+        "aid": "53f44b55dabfaeee22a0b0ab", 
+        "id": 1078, 
+        "results_her": "4880000"
+    }, 
+    {
+        "results_his": "12100", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Jonathan Graehl", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Southern California, Marina del Rey, CA", 
+        "aid": "53f430fadabfaee43ebf3881", 
+        "id": 2049, 
+        "results_her": "9510"
+    }, 
+    {
+        "results_his": "655000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Randy Katz", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "UC Berkeley", 
+        "aid": "53f5b65edabfae4bf1f80462", 
+        "id": 329, 
+        "results_her": "410000"
+    }, 
+    {
+        "results_his": "443000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Peter Flach", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "University of Bristol, United Kingdom", 
+        "aid": "53f42d87dabfaeb22f40a438", 
+        "id": 1530, 
+        "results_her": "383000"
+    }, 
+    {
+        "results_his": "1090000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Rahul Malik", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign", 
+        "aid": "53f431f1dabfaee4dc75344a", 
+        "id": 905, 
+        "results_her": "714000"
+    }, 
+    {
+        "results_his": "147000000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "David A. Holland", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Harvard University", 
+        "aid": "53f47edadabfae9126cc4dda", 
+        "id": 1642, 
+        "results_her": "130000000"
+    }, 
+    {
+        "results_his": "8360000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Thomas F. La Porta", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Bell Labs, Holmdel, NJ", 
+        "aid": "54854d77dabfae8a11fb281e", 
+        "id": 959, 
+        "results_her": "738000"
+    }, 
+    {
+        "results_his": "39500", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Deepak Turaga", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Electrical and Computer Engineering|Carnegie Mellon University", 
+        "aid": "53f44915dabfaee43ec888bf", 
+        "id": 1051, 
+        "results_her": "8280"
+    }, 
+    {
+        "results_his": "396000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Glenn Wasson", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Computer Science Department|University of Virginia", 
+        "aid": "53f43a2ddabfaee43ec53286", 
+        "id": 1885, 
+        "results_her": "364000"
+    }, 
+    {
+        "results_his": "158000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "male", 
+        "name": "Sanjay Ranka", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Florida", 
+        "aid": "53f5591bdabfae3959f8045b", 
+        "id": 756, 
+        "results_her": "69700"
+    }, 
+    {
+        "results_his": "20000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Andreas Haeberlen", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Pennsylvania", 
+        "aid": "53f46581dabfaedd74e663f2", 
+        "id": 1780, 
+        "results_her": "7440"
+    }, 
+    {
+        "results_his": "21700", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Aria Haghighi", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "?", 
+        "affiliation": "Massachusetts Institute of Technology", 
+        "aid": "53f459a5dabfaee2a1d8065a", 
+        "id": 19, 
+        "results_her": "33900"
+    }, 
+    {
+        "results_his": "12900000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Stuart K. Card", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Xerox Palo Alto Research Center, 3333 Coyote Hill Road, Palo Alto, CA", 
+        "aid": "53f42b55dabfaeb2acfc97ac", 
+        "id": 295, 
+        "results_her": "6300000"
+    }, 
+    {
+        "results_his": "33300000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Christine P. Bird", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "The Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, CB10 1SA UK", 
+        "aid": "53f42f07dabfaee02ac75eb0", 
+        "id": 181, 
+        "results_her": "15600000"
+    }, 
+    {
+        "results_his": "391000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Steven Abney", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Michigan", 
+        "aid": "53f432b7dabfaeb2ac02dc61", 
+        "id": 2057, 
+        "results_her": "431000"
+    }, 
+    {
+        "results_his": "4030000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Paul T. Groth", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "School of Electronics and Computer Science, University of Southampton, Highfield, Southampton, SO17 1BJ United Kingdom", 
+        "aid": "5487440fdabfae8a11fb37ef", 
+        "id": 1727, 
+        "results_her": "642000"
+    }, 
+    {
+        "results_his": "13600", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Zoltan Maliga", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Max Planck Institute, Dresden, Germany", 
+        "aid": "53f44bfcdabfaee0d9bca68d", 
+        "id": 165, 
+        "results_her": "2380"
+    }, 
+    {
+        "results_his": "28000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Varun Chandola", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Oak Ridge National Laboratory, TN", 
+        "aid": "53f46c78dabfaeecd6a24819", 
+        "id": 602, 
+        "results_her": "21100"
+    }, 
+    {
+        "results_his": "50000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Yonatan Bisk", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign, Urbana, IL", 
+        "aid": "53f43752dabfaec22ba8987b", 
+        "id": 1208, 
+        "results_her": "20600"
+    }, 
+    {
+        "results_his": "222000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "male", 
+        "name": "Joydeep Ghosh", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Electrical and Computer Engineering|University of Texas at Austin", 
+        "aid": "53f64247dabfaed4cc0f3cc3", 
+        "id": 692, 
+        "results_her": "98900"
+    }, 
+    {
+        "results_his": "83800", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Sheila Mcilraith", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "Department of Computer Science|University of Toronto", 
+        "aid": "53f42dd8dabfaec09f11ab55", 
+        "id": 224, 
+        "results_her": "14200"
+    }, 
+    {
+        "results_his": "11200", 
+        "name_zh": null, 
+        "language": "French\uff08\u6cd5\u8bed\uff09", 
+        "gender": "female", 
+        "name": "Sarah Cohen Boulakia", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "FRA\u6cd5\u56fd", 
+        "affiliation": "Laboratoire de Recherche en Informatique (LRI), CNRS UMR 8623, Universit\u00e9 Paris-Sud, F-91405 Orsay Cedex, France,", 
+        "aid": "53f471a4dabfaee43ed22644", 
+        "id": 1721, 
+        "results_her": "3090"
+    }, 
+    {
+        "results_his": "22000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Marina Danilevsky", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign, Urbana, IL, USA", 
+        "aid": "53f4592cdabfaee2a1d7eb9a", 
+        "id": 920, 
+        "results_her": "8020"
+    }, 
+    {
+        "results_his": "9040000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Emily Stark", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Meteor Development Group", 
+        "aid": "53f43a2bdabfaee4dc7a596e", 
+        "id": 1809, 
+        "results_her": "1110000"
+    }, 
+    {
+        "results_his": "1370000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Cindy X. Lin", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign", 
+        "aid": "53f43370dabfaeb22f453ba6", 
+        "id": 1223, 
+        "results_her": "1100000"
+    }, 
+    {
+        "results_his": "19700000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Rachel A. Diana", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Psychology, Carnegie Mellon University, 15213 Pittsburgh, PA", 
+        "aid": "53f39183dabfae4b34a57e3b", 
+        "id": 351, 
+        "results_her": "9220000"
+    }, 
+    {
+        "results_his": "342000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Vanessa Genovese", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "California State University Monterey Bay, Seaside, CA USA", 
+        "aid": "53f468b6dabfaeee22a5c42c", 
+        "id": 701, 
+        "results_her": "292000"
+    }, 
+    {
+        "results_his": "527000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Maria L. Gini", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Stanford Artificial Intelligence Laboratory, Stanford University, Stanford, CA, U.S.A.", 
+        "aid": "53f4cbb3dabfaee57878176a", 
+        "id": 774, 
+        "results_her": "469000"
+    }, 
+    {
+        "results_his": "110000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Lada A. Adamic", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Michigan, Ann Arbor, MI, USA", 
+        "aid": "53f43176dabfaeb1a7bbef30", 
+        "id": 1091, 
+        "results_her": "24800"
+    }, 
+    {
+        "results_his": "9750", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Nagiza F. Samatova", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "North Carolina State University", 
+        "aid": "53f487b2dabfaec09f2ad02a", 
+        "id": 618, 
+        "results_her": "5220"
+    }, 
+    {
+        "results_his": "138000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Lise Getoor", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Maryland, College Park, MD", 
+        "aid": "53f47032dabfaeb2ac11beb6", 
+        "id": 215, 
+        "results_her": "19700"
+    }, 
+    {
+        "results_his": "322000", 
+        "name_zh": "Flower", 
+        "language": null, 
+        "gender": "female", 
+        "name": "Daphne Koller", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Stanford University", 
+        "aid": "53f49405dabfaeb361f8045b", 
+        "id": 1, 
+        "results_her": "87300"
+    }, 
+    {
+        "results_his": "23700", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Irene Eleta", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Maryland, College Park, College Park, Maryland, USA", 
+        "aid": "53f4d481dabfaef34ef80803", 
+        "id": 1682, 
+        "results_her": "18900"
+    }, 
+    {
+        "results_his": "325000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Irma Lemmens", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Department of Medical Protein Research|Flanders Institute for Biotechnology|Department of Biochemistry|Faculty of Medicine and Health Sciences|Ghent University|Novartis Institutes for Biomedical Research|Harvard Medical School|Department of Cell Biology", 
+        "aid": "53f43470dabfaeb1a7be199b", 
+        "id": 156, 
+        "results_her": "33300"
+    }, 
+    {
+        "results_his": "194000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Anne-Sophie De Smet", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Department of Medical Protein Research|Department of Biochemistry|Faculty of Medicine and Health Sciences|Ghent University", 
+        "aid": "53f4360fdabfaee43ec2d3e7", 
+        "id": 157, 
+        "results_her": "104000"
+    }, 
+    {
+        "results_his": "11100", 
+        "name_zh": null, 
+        "language": "\u5176\u4ed6", 
+        "gender": "female", 
+        "name": "Talya Meltzer", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "The Hebrew University of Jerusalem", 
+        "aid": "53f4ceeadabfaeed1cf82579", 
+        "id": 1854, 
+        "results_her": "2360"
+    }, 
+    {
+        "results_his": "6130", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Kriti Puniyani", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "School of Computer Science, Carnegie Mellon University", 
+        "aid": "53f45e5bdabfaefedbb6ba25", 
+        "id": 2086, 
+        "results_her": "1760"
+    }, 
+    {
+        "results_his": "18300", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Yelena Yesha", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Maryland, Baltimore County", 
+        "aid": "53f58318dabfaeaafbf8045b", 
+        "id": 1102, 
+        "results_her": "9430"
+    }, 
+    {
+        "results_his": "154000", 
+        "name_zh": null, 
+        "language": "Chinese\uff08\u4e2d\u6587\uff09", 
+        "gender": "female", 
+        "name": "Yoonkyong Lee", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois, Urbana-Champaign, IL", 
+        "aid": "53f453e3dabfaee4dc807fcc", 
+        "id": 1004, 
+        "results_her": "77800"
+    }, 
+    {
+        "results_his": "49500", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Judith L. Klavans", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Columbia University, New York, NY", 
+        "aid": "53f4ce7adabfaeedd377bda4", 
+        "id": 1668, 
+        "results_her": "60100"
+    }, 
+    {
+        "results_his": "1190000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Helen Pinto", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "Simon Fraser University, Burnaby, B.C., Canada", 
+        "aid": "53f43404dabfaeb22f45a787", 
+        "id": 1062, 
+        "results_her": "607000"
+    }, 
+    {
+        "results_his": "192000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Guri Giaever", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "Donnelly Centre and Banting & Best Department of Medical Research, University of Toronto, Toronto, Canada", 
+        "aid": "53f475e6dabfaeee22a8d860", 
+        "id": 74, 
+        "results_her": "21800"
+    }, 
+    {
+        "results_his": "250000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Catherine Plaisant", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Maryland", 
+        "aid": "53f43ab0dabfaee0d9b8d94c", 
+        "id": 1707, 
+        "results_her": "131000"
+    }, 
+    {
+        "results_his": "58200", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Marcella Fulco", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Laboratory of Muscle Stem Cells and Gene Regulation, National Institute of Arthritis, Musculoskeletal and Skin Diseases, National Institutes of Health, 50 South Drive, Bethesda, MD 20892, USA", 
+        "aid": "53f450eddabfaec09f1f1b10", 
+        "id": 1934, 
+        "results_her": "52700"
+    }, 
+    {
+        "results_his": "4140", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Awalin Sopan", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Maryland, College Park, Maryland, USA", 
+        "aid": "53f43713dabfaec22ba871a5", 
+        "id": 1706, 
+        "results_her": "2670"
+    }, 
+    {
+        "results_his": "170000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Tanja Urbancic", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Josef Stefan Institute, Jamova 39, SI-1000 Ljubljana, Slovenia and Nova Gorica Polytechnic, Vipavska 13, p.p. 301, SI-5001 Nova Gorica, Slovenia", 
+        "aid": "53f4347ddabfaec22ba6f4d0", 
+        "id": 1576, 
+        "results_her": "6450"
+    }, 
+    {
+        "results_his": "21800", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Jaya Kawale", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Minnesota", 
+        "aid": "53f43745dabfaeb1a7bfb933", 
+        "id": 609, 
+        "results_her": "6440"
+    }, 
+    {
+        "results_his": "300000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Shannon J. Turley", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Molecular and Experimental Medicine, The Scripps Research Institute, La Jolla, California, 92037", 
+        "aid": "53f43968dabfaee02ace7281", 
+        "id": 133, 
+        "results_her": "223000"
+    }, 
+    {
+        "results_his": "2490000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Dana Pe'Er", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Columbia University, New York, NY", 
+        "aid": "53f39229dabfae4b34a5ba5e", 
+        "id": 95, 
+        "results_her": "91300"
+    }, 
+    {
+        "results_his": "547000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Deborah A. Wallach", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Laboratory for Computer Science", 
+        "aid": "53f46dcddabfaeee22a6f679", 
+        "id": 1748, 
+        "results_her": "399000"
+    }, 
+    {
+        "results_his": "380000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Kathryn Papadopoulos", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "?", 
+        "affiliation": "Citrix, San Francisco, CA, USA", 
+        "aid": "53f4648bdabfaefedbb81a60", 
+        "id": 40, 
+        "results_her": "176000"
+    }, 
+    {
+        "results_his": "14300000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Diane E. Oliver", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer Science , Stanford University , and; Department of", 
+        "aid": "53f4738adabfaee43ed29f53", 
+        "id": 310, 
+        "results_her": "5730000"
+    }, 
+    {
+        "results_his": "66700", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Soyoung Ahn", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Civil and Environmental Engineering|Institute of Transportation Studies|University of California", 
+        "aid": "53f431eadabfaec09f14dcd0", 
+        "id": 2112, 
+        "results_her": "43900"
+    }, 
+    {
+        "results_his": "17700000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Alexis Battle", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Stanford University", 
+        "aid": "53f468d3dabfaedf4364fcfe", 
+        "id": 70, 
+        "results_her": "15500000"
+    }, 
+    {
+        "results_his": "28200000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Pamela A. Silver", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Systems Biology|Harvard Medical School", 
+        "aid": "53f42c33dabfaeb22f3f65a3", 
+        "id": 97, 
+        "results_her": "8380000"
+    }, 
+    {
+        "results_his": "51500", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "female", 
+        "name": "Bhavani Thuraisingham", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Texas at Dallas", 
+        "aid": "53f437e0dabfaeee229b89b0", 
+        "id": 910, 
+        "results_her": "21700"
+    }, 
+    {
+        "results_his": "379000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Jeanne T. Rhee", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Epidemiologist Gloria Tzuang", 
+        "aid": "53f469f8dabfaee4dc85c8fb", 
+        "id": 214, 
+        "results_her": "126000"
+    }, 
+    {
+        "results_his": "23900000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Nancy Lynch", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Massachusetts Institute of Technology", 
+        "aid": "53f39f2ddabfae4b34aae964", 
+        "id": 1828, 
+        "results_her": "10100000"
+    }, 
+    {
+        "results_his": "1590000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Catherine E Ingle", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "The Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, CB10 1SA UK", 
+        "aid": "53f446e4dabfaee2a1d362c7", 
+        "id": 184, 
+        "results_her": "733000"
+    }, 
+    {
+        "results_his": "138000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Rosalind W. Picard", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "MIT Media Laboratory", 
+        "aid": "53f49701dabfaeb6d277b43c", 
+        "id": 1858, 
+        "results_her": "53300"
+    }, 
+    {
+        "results_his": "4740", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Marie-Anne Neimat", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Hewlett-Packard Laboratories 1501 Page Mill Road 94305 Palo Alto CA 1501 Page Mill Road 94305 Palo Alto CA", 
+        "aid": "53f42da7dabfaeb22f40bd04", 
+        "id": 1123, 
+        "results_her": "2030"
+    }, 
+    {
+        "results_his": "64700", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Mari Ostendorf", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Washington", 
+        "aid": "5434c27bdabfaebba5862524", 
+        "id": 2015, 
+        "results_her": "24100"
+    }, 
+    {
+        "results_his": "35600", 
+        "name_zh": null, 
+        "language": "Italian\uff08\u610f\u5927\u5229\u8bed\uff09", 
+        "gender": "female", 
+        "name": "Elena Sinforiani", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "ITA\u610f\u5927\u5229", 
+        "affiliation": "Laboratory of Neuropsychology, IRCCS \u201cC. Mondino\u201d Institute of Neurology Foundation, Via Mondino, 27100 Pavia, Italy", 
+        "aid": "53f46c6ddabfaedd74e81fff", 
+        "id": 1950, 
+        "results_her": "1310"
+    }, 
+    {
+        "results_his": "5750000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Ariel S. Schwartz", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of California at Berkeley, Berkeley, CA", 
+        "aid": "53f353d0dabfae4b34953f20", 
+        "id": 308, 
+        "results_her": "729000"
+    }, 
+    {
+        "results_his": "106000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Haesun Park", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Georgia Institute of Technology, Atlanta, GA", 
+        "aid": "53f4a73edabfaedd74eb8037", 
+        "id": 716, 
+        "results_her": "20000"
+    }, 
+    {
+        "results_his": "1890", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Veronika Lukacs-Kornek", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Cancer Immunology and AIDS, Dana Farber Cancer Institute and Department of Pathology, Harvard Medical School, Boston, MA, USA", 
+        "aid": "53f433a9dabfaeb2ac037b14", 
+        "id": 131, 
+        "results_her": "321"
+    }, 
+    {
+        "results_his": "83900000", 
+        "name_zh": null, 
+        "language": "Chinese\uff08\u4e2d\u6587\uff09", 
+        "gender": "female", 
+        "name": "Su-In Lee", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Electrical Engineering|Stanford University", 
+        "aid": "53f4314bdabfaee2a1cae6ba", 
+        "id": 90, 
+        "results_her": "41800000"
+    }, 
+    {
+        "results_his": "18000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Karla V. Ballman", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Division of Biostatistics, Mayo Clinic, Rochester, Minn.", 
+        "aid": "53f7e0fadabfae90ec127fd0", 
+        "id": 673, 
+        "results_her": "21100"
+    }, 
+    {
+        "results_his": "67800", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Barbara Liskov", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "MIT Laboratory for Computer Science", 
+        "aid": "53f4aae0dabfaecc2677b3e7", 
+        "id": 1821, 
+        "results_her": "13100"
+    }, 
+    {
+        "results_his": "381000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Jill Burstein", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Educational Testing Service", 
+        "aid": "53f476d8dabfaee4dc88fe00", 
+        "id": 2071, 
+        "results_her": "151000"
+    }, 
+    {
+        "results_his": "274000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Carole Goble", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "University of Manchester, Manchester, UK", 
+        "aid": "53f479c8dabfae8a6845bfe1", 
+        "id": 1640, 
+        "results_her": "52600"
+    }, 
+    {
+        "results_his": "67700", 
+        "name_zh": null, 
+        "language": "Italian\uff08\u610f\u5927\u5229\u8bed\uff09", 
+        "gender": "female", 
+        "name": "Clara Balsano", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "ITA\u610f\u5927\u5229", 
+        "affiliation": "I Clinica Medica and Fondazione Andrea Cesalpino Policlinico Umberto I - 00161 Rome - Italy", 
+        "aid": "53f469fadabfaee43ed04f4f", 
+        "id": 1914, 
+        "results_her": "7910"
+    }, 
+    {
+        "results_his": "113000000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "female", 
+        "name": "Lisa Scott", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "?", 
+        "affiliation": "Dominion Energy , Inc", 
+        "aid": "53f365b3dabfae4b34999098", 
+        "id": 998, 
+        "results_her": "99200000"
+    }, 
+    {
+        "results_his": "2490000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Cristina Robles", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Maryland, College Park, MD, USA", 
+        "aid": "53f4313bdabfaee4dc74a66d", 
+        "id": 1656, 
+        "results_her": "361000"
+    }, 
+    {
+        "results_his": "83800", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "M.C. Schraefel", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "University of Southampton, Southampton, United Kingdom", 
+        "aid": "53f44489dabfaee43ec768ab", 
+        "id": 1685, 
+        "results_her": "33900"
+    }, 
+    {
+        "results_his": "298000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Tracy S. P. Heng", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Monash University Monash Immunology and Stem Cell Laboratories Clayton VIC 3800 Australia", 
+        "aid": "53f42ed1dabfaeb2acffc82f", 
+        "id": 124, 
+        "results_her": "145000"
+    }, 
+    {
+        "results_his": "8770000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Emanuele Santos", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Utah", 
+        "aid": "53f4d301dabfaef206f80701", 
+        "id": 1646, 
+        "results_her": "286000"
+    }, 
+    {
+        "results_his": "22600", 
+        "name_zh": null, 
+        "language": "Chinese\uff08\u4e2d\u6587\uff09", 
+        "gender": "female", 
+        "name": "Ada Wai-Chee Fu", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CHN\u4e2d\u56fd", 
+        "affiliation": "Chinese University of Hong Kong", 
+        "aid": "53f4af89dabfaedd74eb947f", 
+        "id": 933, 
+        "results_her": "45600"
+    }, 
+    {
+        "results_his": "217000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Amy J. Wagers", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Section on Developmental and Stem Cell Biology, Joslin Diabetes Center, Department of Pathology, Harvard Medical School and Harvard Stem Cell Institute, Boston, MA 02215, USA", 
+        "aid": "53f460ffdabfaee2a1d99985", 
+        "id": 136, 
+        "results_her": "129000"
+    }, 
+    {
+        "results_his": "181000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Sara Alspaugh", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of California, Berkeley", 
+        "aid": "53f4d5fcdabfaef468f80cfb", 
+        "id": 328, 
+        "results_her": "37200"
+    }, 
+    {
+        "results_his": "37100", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Meichun Hsu", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "HP Labs, Palo Alto, California and Hewlett Packard Co.", 
+        "aid": "53f556c2dabfaea7cd1d75a1", 
+        "id": 1043, 
+        "results_her": "21700"
+    }, 
+    {
+        "results_his": "7150", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Allison Gyle Woodruff", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Univ. of California, Berkeley", 
+        "aid": "53f320b9dabfae9a84454664", 
+        "id": 283, 
+        "results_her": "295000"
+    }, 
+    {
+        "results_his": "4730", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Sylvia K. Plevritis", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Radiology|Stanford University", 
+        "aid": "53f35610dabfae4b3495c6d2", 
+        "id": 87, 
+        "results_her": "2830"
+    }, 
+    {
+        "results_his": "8430", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Anna Divoli", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "Faculty of Life Sciences|School of Computer Science|University of Manchester", 
+        "aid": "53f448afdabfaedd74df7cb1", 
+        "id": 289, 
+        "results_her": "95300"
+    }, 
+    {
+        "results_his": "345000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Marti Hearst", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of California, Berkeley", 
+        "aid": "53f444d3dabfaee0d9bacca5", 
+        "id": 292, 
+        "results_her": "75700"
+    }, 
+    {
+        "results_his": "108000", 
+        "name_zh": null, 
+        "language": "Italian\uff08\u610f\u5927\u5229\u8bed\uff09", 
+        "gender": "female", 
+        "name": "Simonetta Balsamo", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "ITA\u610f\u5927\u5229", 
+        "affiliation": "Dipartimento di Informatica|Foscari di Venezia", 
+        "aid": "5448a3eedabfae87b7e5641b", 
+        "id": 1478, 
+        "results_her": "33000"
+    }, 
+    {
+        "results_his": "149000000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Jennifer English", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "School of Information Management & Systems|University of California , Berkeley", 
+        "aid": "53f46229dabfaeb22f52b867", 
+        "id": 339, 
+        "results_her": "143000000"
+    }, 
+    {
+        "results_his": "192000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Daniela Rosner", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "California College of the Arts", 
+        "aid": "53f434aedabfaeb2ac043169", 
+        "id": 304, 
+        "results_her": "124000"
+    }, 
+    {
+        "results_his": "1770", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Jinane Abounadi", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Laboratory for Information and Decision Systems|Massachusetts Institute of Technology", 
+        "aid": "53f3a585dabfae4b34ad6365", 
+        "id": 1994, 
+        "results_her": "131"
+    }, 
+    {
+        "results_his": "31900", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "female", 
+        "name": "Bhavani M. Thuraisingham", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "MITRE Corporation", 
+        "aid": "548452a3dabfae9b40132ee1", 
+        "id": 1103, 
+        "results_her": "17600"
+    }, 
+    {
+        "results_his": "137000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "female", 
+        "name": "Shobha Vasudevan", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Illinois at Urbana-Champaign", 
+        "aid": "5409610fdabfae450f47d666", 
+        "id": 1014, 
+        "results_her": "49200"
+    }, 
+    {
+        "results_his": "175000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Elke Ericson", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Department of Bioscience, AstraZeneca R&D M\u00f6lndal, M\u00f6lndal, Sweden", 
+        "aid": "53f42c5ddabfaec22ba080e3", 
+        "id": 71, 
+        "results_her": "1140000"
+    }, 
+    {
+        "results_his": "825000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Diana Maynard", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "University of Sheffield, Sheffield, UK", 
+        "aid": "53f56d18dabfae71b6f8045b", 
+        "id": 1692, 
+        "results_her": "451000"
+    }, 
+    {
+        "results_his": "37400", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Bianca Zadrozny", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of California, San Diego, La Jolla, California", 
+        "aid": "53f48c14dabfaea7cd1ce091", 
+        "id": 1442, 
+        "results_her": "10200"
+    }, 
+    {
+        "results_his": "254000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Sherri De Coronado", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "National Cancer Institute Center for Bioinformatics, 6116 Executive Blvd, Suite 403, Bethesda, MD 20892-8335, United States", 
+        "aid": "53f392a3dabfae4b34a5e72e", 
+        "id": 1662, 
+        "results_her": "234000"
+    }, 
+    {
+        "results_his": "125000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Ilkay Altintas", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "San Diego Supercomputer Center", 
+        "aid": "53f45417dabfaee2a1d6b195", 
+        "id": 1637, 
+        "results_her": "179000"
+    }, 
+    {
+        "results_his": "2780000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Cindy Lin", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Department of Neurology, Prince of Wales Hospital and Prince of Wales Medical Research Institute, University of New South Wales, High Street, Randwick, N.S.W. 2031, Australia", 
+        "aid": "53f44b05dabfaec22badacff", 
+        "id": 1227, 
+        "results_her": "776000"
+    }, 
+    {
+        "results_his": "218000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Susan Flynn Hummel", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Computer Science, Polytechnic University, Brooklyn, NY", 
+        "aid": "53f46f39dabfaeee22a748fe", 
+        "id": 1812, 
+        "results_her": "186000"
+    }, 
+    {
+        "results_his": "56400", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Ilona Silins", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Institute of Environmental Medicine|Karolinska Institutet", 
+        "aid": "53f44691dabfaee02ad1982e", 
+        "id": 1871, 
+        "results_her": "3960"
+    }, 
+    {
+        "results_his": "13900", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Ananda W. Goldrath", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Department of Immunology and Howard Hughes, Medical Institute, University of Washington, Seattle, Washington 98195, USA", 
+        "aid": "53f430f6dabfaec09f141c95", 
+        "id": 127, 
+        "results_her": "3900"
+    }, 
+    {
+        "results_his": "148000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Chandrika Kamath", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Lawrence Livermore National Laboratory", 
+        "aid": "5434f286dabfaebba5883d80", 
+        "id": 745, 
+        "results_her": "31600"
+    }, 
+    {
+        "results_his": "542000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Melody Y. Ivory", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Washington", 
+        "aid": "53f465b3dabfaedf436432d3", 
+        "id": 302, 
+        "results_her": "682000"
+    }, 
+    {
+        "results_his": "4850", 
+        "name_zh": null, 
+        "language": "Italian\uff08\u610f\u5927\u5229\u8bed\uff09", 
+        "gender": "female", 
+        "name": "Simona Tavolaro", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "ITA\u610f\u5927\u5229", 
+        "affiliation": "Division of Hematology|Department of Cellular Biotechnologies and Hematology|Sapienza University", 
+        "aid": "53f4372adabfaee43ec36eaf", 
+        "id": 1911, 
+        "results_her": "749"
+    }, 
+    {
+        "results_his": "29400000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Sara Adams", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Georgetown University", 
+        "aid": "53f46936dabfaee4dc8596e9", 
+        "id": 845, 
+        "results_her": "28800000"
+    }, 
+    {
+        "results_his": "10300", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Katrina Panovich", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "MIT CSAIL, Cambridge, USA", 
+        "aid": "53f4342ddabfaee02acb488f", 
+        "id": 1972, 
+        "results_her": "7810"
+    }, 
+    {
+        "results_his": "587000", 
+        "name_zh": null, 
+        "language": "Indian\uff08\u5370\u5ea6\u8bed\uff09", 
+        "gender": "female", 
+        "name": "Monika Mehta", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "IND\u5370\u5ea6", 
+        "affiliation": "Indian Institute of Chemical Biology", 
+        "aid": "53f456dddabfaee2a1d75dd4", 
+        "id": 110, 
+        "results_her": "420000"
+    }, 
+    {
+        "results_his": "19000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Vida Groznik", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Faculty of Computer and Information Science, University of Ljubljana, Slovenia", 
+        "aid": "53f399eadabfae4b34a8bdb9", 
+        "id": 1537, 
+        "results_her": "2240"
+    }, 
+    {
+        "results_his": "798000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Juliana Freire", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "University of Utah", 
+        "aid": "53f47ee5dabfae9126cc51b7", 
+        "id": 1643, 
+        "results_her": "347000"
+    }, 
+    {
+        "results_his": "325000", 
+        "name_zh": null, 
+        "language": "\uff1f", 
+        "gender": "female", 
+        "name": "Sravana Reddy", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "The University of Chicago, Chicago, IL", 
+        "aid": "53f47248dabfaedf43673d6c", 
+        "id": 2042, 
+        "results_her": "72600"
+    }, 
+    {
+        "results_his": "21900", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "June H. Myklebust", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "\u5176\u4ed6", 
+        "affiliation": "Department of Immunology, Institute for Cancer Research, Norweigan Radium Hospital, Oslo University Hospital, Norway", 
+        "aid": "53f42a2ddabfaeb22f3d8315", 
+        "id": 88, 
+        "results_her": "21000"
+    }, 
+    {
+        "results_his": "2810000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Michelle Osborne", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "GBR\u82f1\u56fd", 
+        "affiliation": "Cancer Research UK - CRI, Li Ka Shing Centre, Robinson Way, Cambridge, CB2 0RE, UK", 
+        "aid": "53f45115dabfaedd74e18fcb", 
+        "id": 1791, 
+        "results_her": "949000"
+    }, 
+    {
+        "results_his": "809000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "D. A. Wallach", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "Laboratory for Computer Science", 
+        "aid": "53f442a1dabfaeee229eaf11", 
+        "id": 1777, 
+        "results_her": "116000"
+    }, 
+    {
+        "results_his": "516000", 
+        "name_zh": null, 
+        "language": "Japanese\uff08\u65e5\u8bed\uff09", 
+        "gender": "female", 
+        "name": "Jenny Chiang", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "JPN\u65e5\u672c", 
+        "affiliation": "Faculty of Pharmaceutical Sciences, Josai International University, Togane, 283-8855 Japan", 
+        "aid": "53f46dc3dabfaee4dc86b7f1", 
+        "id": 1036, 
+        "results_her": "371000"
+    }, 
+    {
+        "results_his": "844000", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Alice Leung", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "USA\u7f8e\u56fd", 
+        "affiliation": "BBN Technologies", 
+        "aid": "53f45909dabfaefedbb5a2ab", 
+        "id": 956, 
+        "results_her": "455000"
+    }, 
+    {
+        "results_his": "95700", 
+        "name_zh": null, 
+        "language": "English\uff08\u82f1\u6587\uff09", 
+        "gender": "female", 
+        "name": "Marina Barsky", 
+        "contact": {
+            "email": ""
+        }, 
+        "location": "CAN\u52a0\u62ff\u5927", 
+        "affiliation": "University of Victoria, Victoria, BC, Canada", 
+        "aid": "53f44fc0dabfaedf435f13d5", 
+        "id": 1206, 
+        "results_her": "65900"
+    }
+]
