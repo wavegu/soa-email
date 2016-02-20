@@ -1,7 +1,6 @@
 # encoding=utf8
 import json
 import sys
-import leveldb
 
 from service_log import service_log
 from person import Person
@@ -33,8 +32,8 @@ class AminerEmailService:
                 service_log.error_log('Aminer server error:' + return_dict['message'])
                 exit()
             service_log.success_log('Get task_person_list')
-            for person_dict in return_dict['tasks']:
-                print person_dict
+            # for person_dict in return_dict['tasks']:
+            #     print person_dict
             self.task_person_list = [Person(person_dict) for person_dict in return_dict['tasks']]
 
 
@@ -44,5 +43,5 @@ if __name__ == '__main__':
     for person in service.task_person_list:
         person.get_recommend_email_list()
         DB_ID_PERSON_JSON.Put(str(person.id), person.to_json())
-        with open(person.name + '.json', 'w') as f:
+        with open('../resource/test/' + person.name + '.json', 'w') as f:
             f.write(person.to_json())

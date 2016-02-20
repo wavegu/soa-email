@@ -3,13 +3,18 @@ import os
 import json
 
 from util import is_a_in_b
+from classifier.svm_node import SvmNode
 from searcher.google_item_parser import GoogleItemParser
-from classifier.svm import SVMLight
-from classifier.email_model import EmailModel
 from constants import DB_ID_PERSON_JSON
+from constants import SVM_LOG_PATH
+from constants import SVM_MODEL_PATH
+from constants import SVM_CLASSIFIER_PATH
+from constants import SVM_FEATURE_FILE_PATH
+from constants import SVM_PREDICTION_FILE_PATH
 from service_log import service_log
 
 
+SVM_THRESHOLD = -0.9995
 MIN_GOOGLE_PAGE_CONTENT_LENGTH = 1024
 
 
@@ -23,15 +28,12 @@ class Person:
 
         self.google_page_content = ''
         self.google_item_dict_list = []
-        self.email_email_model_dict = {}
-        self.personal_email_model_list = []
         self.recommend_email_list = []
+        self.abandoned_email_list = []
 
         from classifier.aff_words_extractor import AffWordsExtractor
         extractor = AffWordsExtractor(os.path.join('..', 'resource', 'aff_stopwords.txt'))
         self.affiliation_word_list = extractor.get_aff_words_list(self.affiliation)
-        # self.get_google_item_dict_list()
-        # self.get_email_email_model_dict()
 
     def __get_google_page__(self):
         service_log.debug_log('Getting google page content:' + self.name)
@@ -49,6 +51,7 @@ class Person:
             return self.google_page_content
 
     def get_google_item_dict_list(self):
+        from copy import copy
         try:
             self.__get_google_page__()
             fail_time = 0
@@ -59,7 +62,14 @@ class Person:
             if fail_time >= 4:
                 raise LookupError
             item_parser = GoogleItemParser()
-            self.google_item_dict_list = item_parser.parse_google_items_from_google_pages(self.google_page_content)
+            raw_item_dict_list = item_parser.parse_google_items_from_google_pages(self.google_page_content)
+            for raw_item_dict in raw_item_dict_list:
+                for email_addr in raw_item_dict['email_addr_list']:
+                    item_dict = copy(raw_item_dict)
+                    item_dict.pop('email_addr_list')
+                    item_dict['email_addr'] = email_addr
+                    item_dict['person_name'] = self.name
+                    self.google_item_dict_list.append(item_dict)
             service_log.success_log('Getting google items:' + self.name)
         except LookupError:
             service_log.error_log('Refind google page fails:' + self.name)
@@ -69,62 +79,27 @@ class Person:
             self.google_item_dict_list = []
         return self.google_item_dict_list
 
-    def get_email_email_model_dict(self):
-        for google_item_dict in self.google_item_dict_list:
-            title = google_item_dict['title'].lower()
-            content = google_item_dict['content'].lower()
-            cite_url = google_item_dict['cite_url'].lower()
-            cite_name = google_item_dict['cite_name'].lower()
-            email_addr_list = google_item_dict['email_addr_list']
-
-            for email_addr in email_addr_list:
-                # 若当前email地址没有对应的email_model，则创建一个新的
-                if email_addr not in self.email_email_model_dict:
-                    tag = -1
-                    self.email_email_model_dict[email_addr] = EmailModel(self.name, email_addr, self.get_all_email_addr_list(), tag)
-                # 对当前model进行google_item相关的参数赋值
-                person_last_name = self.name.lower().split(' ')[-1]
-                tem_email_model = self.email_email_model_dict[email_addr]
-                tem_email_model.is_last_name_in_google_title = tem_email_model.is_last_name_in_google_title or is_a_in_b(person_last_name, title)
-                tem_email_model.is_last_name_in_google_content = tem_email_model.is_last_name_in_google_content or is_a_in_b(person_last_name, content)
-
-                # TODO: is_affiliation_in_google_title
-                aff_word_num_in_title = 0
-                aff_word_num_in_content = 0
-                for aff_word in self.affiliation_word_list:
-                    if is_a_in_b(aff_word, title):
-                        aff_word_num_in_title += 1
-                    if is_a_in_b(aff_word, content):
-                        aff_word_num_in_content += 1
-                aff_word_proportion_in_title = float(aff_word_num_in_title) / float(len(self.affiliation_word_list)+1)
-                aff_word_proportion_in_content = float(aff_word_num_in_content) / float(len(self.affiliation_word_list)+1)
-                if tem_email_model.max_affiliation_proportion_in_title < aff_word_proportion_in_title:
-                    tem_email_model.max_affiliation_proportion_in_title = aff_word_proportion_in_title
-                if tem_email_model.max_affiliation_proportion_in_content < aff_word_proportion_in_content:
-                    tem_email_model.max_affiliation_proportion_in_content = aff_word_proportion_in_content
-
-                self.email_email_model_dict[email_addr] = tem_email_model
-
-    def write_feature_file(self, feature_dir_path):
-        feature_file_path = feature_dir_path + self.name.replace(' ', '_') + '.feature'
-        with open(feature_file_path, 'w') as feature_file:
-            print 'writing feature:', self.name
-            if not self.google_item_dict_list:
-                return
-            for email_addr, email_model in self.email_email_model_dict.items():
-                feature_file.write(email_model.get_feature_line() + '\n')
-
     def to_json(self):
         person_dict = {
             'id': str(self.id),
             'name': self.name,
             'org': self.affiliation,
             'google_item_list': self.google_item_dict_list,
-            'recommend_email_list': self.recommend_email_list
+            'recommend_email_list': self.recommend_email_list,
+            'abandoned_email_list': self.abandoned_email_list
         }
         return json.dumps(person_dict, indent=4)
 
+    def svm_predict(self):
+        with open(SVM_FEATURE_FILE_PATH, 'w') as feature_file:
+            for item_dict in self.google_item_dict_list:
+                svm_node = SvmNode(item_dict, self.affiliation_word_list)
+                feature_file.write(svm_node.get_svm_feature_line())
+        cmd = SVM_CLASSIFIER_PATH + ' ' + SVM_FEATURE_FILE_PATH + ' ' + SVM_MODEL_PATH + ' ' + SVM_PREDICTION_FILE_PATH + ' > ' + SVM_LOG_PATH
+        os.system(cmd)
+
     def get_recommend_email_list(self):
+        # if already have recommend record, return history recommend directly
         try:
             person_json = DB_ID_PERSON_JSON.Get(self.id)
             person_dict = json.loads(person_json)
@@ -134,12 +109,22 @@ class Person:
             else:
                 service_log.success_log('Recommend email list already in:' + self.name)
                 return self.recommend_email_list
+        # if no history record
         except KeyError:
             service_log.debug_log('Getting recommend email list:' + self.name)
             self.recommend_email_list = []
             self.get_google_item_dict_list()
-            for item in self.google_item_dict_list:
-                self.recommend_email_list += item['email_addr_list']
+            self.svm_predict()
+            with open(SVM_PREDICTION_FILE_PATH) as prediction_file:
+                looper = 0
+                for line in prediction_file.readlines():
+                    prediction_value = float(line)
+                    if prediction_value > SVM_THRESHOLD:
+                        self.recommend_email_list.append(self.google_item_dict_list[looper]['email_addr'])
+                    else:
+                        self.abandoned_email_list.append(self.google_item_dict_list[looper]['email_addr'])
+                    looper += 1
         except Exception as e:
             service_log.error_log('Getting recommend email list:' + self.name + '\n       ' + str(e))
+        self.recommend_email_list = list(set(self.recommend_email_list))
         return self.recommend_email_list

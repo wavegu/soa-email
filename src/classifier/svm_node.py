@@ -12,7 +12,6 @@ class SvmNode:
         self.aff_word_list = aff_word_list
         self.item_dict = google_item_dict
         self.label = True
-        self.node_name = str(google_item_dict['id'])
         self.email = str(google_item_dict['email_addr']).lower()
         self.person_name = str(google_item_dict['person_name']).lower().replace('.', '')
         self.google_title = str(google_item_dict['title']).lower().replace('.', '')
@@ -139,7 +138,7 @@ class SvmNode:
             self.prefix_is_invalid_keyword()
         ]
 
-        feature_line = self.label + ' '
+        feature_line = '1 '
         for looper in range(len(feature_list)):
             feature_id = str(looper + 1)
             feature_line += feature_id + ':' + str(int(feature_list[looper])) + ' '
