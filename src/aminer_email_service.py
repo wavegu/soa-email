@@ -1,17 +1,16 @@
 # encoding=utf8
 import json
-import leveldb
-from service_log import service_log
-from classifier.svm import SVMLight
-from classifier.person import Person
-from classifier.aff_words_extractor import AffWordsExtractor
-from classifier.util import create_dir_if_not_exist
-from searcher.google_item_parser import GoogleItemParser
-
 import sys
+import leveldb
+
+from service_log import service_log
+from person import Person
+from constants import DB_ID_PERSON_JSON
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 
+G_IS_TEST = True
 sys.dont_write_bytecode = True
 
 
@@ -21,21 +20,29 @@ class AminerEmailService:
         self.task_person_list = []
 
     def get_task_person_list(self, size):
-        import urllib
-        query_url = 'http://alpha.api.aminer.org/api/fusion/person/ctasks/email/s/' + str(size)
-        return_content = urllib.urlopen(query_url).read()
-        return_dict = json.loads(return_content)
-        return_status = return_dict['status']
-        if not return_status:
-            service_log.error_log('Aminer server error:' + return_dict['message'])
-            exit()
-        service_log.success_log('Get task_person_list')
-        self.task_person_list = return_dict['tasks']
-        
+        if G_IS_TEST:
+            with open('../resource/test/test_person_list.json') as json_file:
+                self.task_person_list = [Person(person_dict, is_test=True) for person_dict in json.load(json_file)]
+        else:
+            import urllib
+            query_url = 'http://alpha.api.aminer.org/api/fusion/person/ctasks/email/s/' + str(size)
+            return_content = urllib.urlopen(query_url).read()
+            return_dict = json.loads(return_content)
+            return_status = return_dict['status']
+            if not return_status:
+                service_log.error_log('Aminer server error:' + return_dict['message'])
+                exit()
+            service_log.success_log('Get task_person_list')
+            for person_dict in return_dict['tasks']:
+                print person_dict
+            self.task_person_list = [Person(person_dict) for person_dict in return_dict['tasks']]
 
 
 if __name__ == '__main__':
     service = AminerEmailService()
     service.get_task_person_list(10)
     for person in service.task_person_list:
-        print person
+        person.get_recommend_email_list()
+        DB_ID_PERSON_JSON.Put(str(person.id), person.to_json())
+        with open(person.name + '.json', 'w') as f:
+            f.write(person.to_json())

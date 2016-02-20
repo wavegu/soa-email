@@ -1,14 +1,15 @@
-import os
-from classifier.util import create_dir_if_not_exist
+import leveldb
 from os.path import join
+from util import create_dir_if_not_exist
+
 
 # log
 LOG_DIR = join('..', 'log')
 DEFAULT_LOG_PATH = join(LOG_DIR, 'log.txt')
+create_dir_if_not_exist(LOG_DIR)
 
 # leveldb
 DB_DIR = join('..', 'leveldb')
-DB_ID_NAME = join(DB_DIR, 'id_name')
-DB_ID_ITEM = join(DB_DIR, 'id_item')
+DB_PATH_ID_PERSON_JSON = join(DB_DIR, 'id_person_json')
+DB_ID_PERSON_JSON = leveldb.LevelDB(DB_PATH_ID_PERSON_JSON)
 
-create_dir_if_not_exist(LOG_DIR)

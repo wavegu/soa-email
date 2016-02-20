@@ -36,7 +36,7 @@ class GoogleItemParser(HTMLParser):
     search for e-mail address from search page
     """
 
-    def __init__(self, input_google_pages_path, output_google_items_path):
+    def __init__(self):
         HTMLParser.__init__(self)
         self.tem_googleItem = GoogleItem()
         self.is_in_title = False
@@ -45,8 +45,6 @@ class GoogleItemParser(HTMLParser):
         self.is_in_cite_name = False
         self.google_item_list = []
         self.content_span_num = 0
-        self.input_google_pages_path = input_google_pages_path
-        self.output_google_items_path = output_google_items_path
 
     def handle_starttag(self, tag, attrs):
         if tag == 'span':
@@ -103,13 +101,13 @@ class GoogleItemParser(HTMLParser):
             # if self.tem_googleItem.content.find('@') < 0 and self.tem_googleItem.content.find(' at ') < 0 and self.tem_googleItem.content.find('[at]') < 0:
             #     return []
 
-            rough_pattern = re.compile('[a-z0-9-\._]+(@| at | \[at\] |\[at\])(([a-z0-9\-]+)(\.| dot | \. | \[dot\] ))+([a-z]+)')
+            rough_pattern = re.compile('[a-z0-9-\._]+(@| at | \[at\] |\[at\]| (at) | @ )(([a-z0-9\-]+)(\.| dot | \. | \[dot\] ))+([a-z]+)')
             rough_match = rough_pattern.finditer(self.tem_googleItem.content)
             for rm in rough_match:
-                pattern = re.compile('(([a-z0-9-_]+)(\.| dot | \. )?)+(@| at | \[at\] |\[at\])(([a-z0-9\-]+)(\.| dot | \.  \[dot\] ))+([a-z]+)')
+                pattern = re.compile('(([a-z0-9-_]+)(\.| dot | \. )?)+(@| at | \[at\] |\[at\]| (at) | @ )(([a-z0-9\-]+)(\.| dot | \.  \[dot\] ))+([a-z]+)')
                 match = pattern.finditer(rm.group())
                 for m in match:
-                    self.tem_googleItem.email_list.append(m.group().replace(' dot ', '.').replace(' at ', '@').replace('[at]', '@').replace(' ', ''))
+                    self.tem_googleItem.email_list.append(m.group().replace(' dot ', '.').replace(' at ', '@').replace('[at]', '@').replace('(at)', '@').replace(' ', ''))
 
             if self.tem_googleItem.email_list:
                 self.google_item_list.append(self.tem_googleItem)
@@ -124,31 +122,11 @@ class GoogleItemParser(HTMLParser):
         if self.is_in_content:
             self.tem_googleItem.content += data
 
-    def parse_google_items_from_google_pages(self):
-        import codecs
-        if not os.path.isdir(self.output_google_items_path):
-            os.mkdir(self.output_google_items_path)
-        counter = 0
-        for person in os.listdir(self.input_google_pages_path):
-            google_item_file_path = self.output_google_items_path + person + '.json'
-            if person + '.json' in os.listdir(self.output_google_items_path):
-                continue
-            if not os.path.isdir(self.input_google_pages_path + person):
-                continue
-            counter += 1
-            print 'parsing item: [%d] %s\n' % (counter, person)
-            google_page_file_path = os.listdir(self.input_google_pages_path + person)[0]
-            for filename in os.listdir(self.input_google_pages_path + person):
-                if '.html' in filename and '~' not in filename:
-                    google_page_file_path = self.input_google_pages_path + person + '/' + filename
-                    break
-            google_page_content = open(google_page_file_path).read()
-
-            self.feed(google_page_content)
-            google_item_dict_list = [google_item.to_dict() for google_item in self.google_item_list]
-            with codecs.open(google_item_file_path, "w", encoding="utf-8") as f_out:
-                json.dump(google_item_dict_list, f_out, indent=4, ensure_ascii=False)
-            self.google_item_list = []
+    def parse_google_items_from_google_pages(self, google_page_content):
+        self.feed(google_page_content)
+        google_item_dict_list = [google_item.to_dict() for google_item in self.google_item_list]
+        self.google_item_list = []
+        return google_item_dict_list
 
 
 # if __name__ == '__main__':

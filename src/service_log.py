@@ -10,8 +10,10 @@ class ServiceLog:
         self.log_template = '>>> <TIME>\n[<TYPE>] <CONTENT> <SUFFIX>\n'
 
     def get_log_sentence(self, log_type, content, suffix=''):
-        return self.log_template.replace('<TIME>', str(datetime.now())).replace('<TYPE>', log_type)\
+        log_sentence = self.log_template.replace('<TIME>', str(datetime.now())).replace('<TYPE>', log_type)\
             .replace('<SUFFIX>', suffix).replace('<CONTENT>', content)
+        print log_sentence
+        return log_sentence
 
     def debug_log(self, content):
         self.log_file.write(self.get_log_sentence('DEBUG', content))
