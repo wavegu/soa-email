@@ -1,0 +1,32 @@
+[
+    {
+        "org": "Bell Laboratories", 
+        "name": "Vladimir Vapnik", 
+        "id": "1"
+    }, 
+    {
+        "org": "National Center for Biotechnology Information|National Library of Medicine|National Institutes of Health", 
+        "name": "David J. Lipman", 
+        "id": "2"
+    }, 
+    {
+        "org": "Harvard Business School", 
+        "name": "Michael C. Jensen", 
+        "id": "3"
+    }, 
+    {
+        "org": "University of Illinois at Urbana-Champaign, Urbana, IL", 
+        "name": "David E. Goldberg", 
+        "id": "4"
+    }, 
+    {
+        "org": "Department of Host Defense, Research Institute for Microbial Diseases, Osaka University, Osaka 565-0871, Japan", 
+        "name": "Shizuo Akira", 
+        "id": "5"
+    }, 
+    {
+        "org": "Hebrew U., Jerusalem, Israel", 
+        "name": "Daniel Kahneman", 
+        "id": "6"
+    }
+]
