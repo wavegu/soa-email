@@ -26,7 +26,7 @@ class PageSearcher:
                 with open('missing_name.txt', 'w') as missing_name_file:
                     for missing_name in self.error_name_list:
                         missing_name_file.write(str(missing_name) + '\n')
-                return False
+                return ''
             print name, 'OK...'
             time.sleep(random.randint(1, 3))
 

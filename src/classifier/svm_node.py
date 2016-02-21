@@ -1,7 +1,7 @@
 import re
 import os
 import sys
-from ..util import prefix_is_invalid_keyword
+from util import prefix_is_invalid_keyword
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -116,6 +116,14 @@ class SvmNode:
                 break
         return is_domain_contain_aff_word
 
+    def cite_url_contain_aff_word(self):
+        is_contain_aff_word = False
+        for aff_word in self.aff_word_list:
+            if aff_word.lower() in self.cite_url:
+                is_contain_aff_word = True
+                break
+        return is_contain_aff_word
+
     def same_domain_with_invalid(self):
         for mail in self.all_emails:
             mail = mail.lower()
@@ -151,7 +159,9 @@ class SvmNode:
             self.google_content_contain_aff_word(),
 
             self.prefix_is_invalid_keyword(),
-            self.domain_contain_aff_word()
+            self.domain_contain_aff_word(),
+            self.same_domain_with_invalid()
+            # self.cite_url_contain_aff_word()
         ]
 
         feature_line = '1 '

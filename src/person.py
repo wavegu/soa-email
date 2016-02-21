@@ -15,6 +15,7 @@ from service_log import service_log
 
 
 SVM_THRESHOLD = 0
+CITE_URL_BENIFIT = 1.2
 MIN_GOOGLE_PAGE_CONTENT_LENGTH = 1024
 
 
@@ -101,6 +102,14 @@ class Person:
         os.system(cmd)
 
     def get_recommend_email(self):
+
+        def svm_value_considering_cite_url(raw_svm_value, google_item_dict):
+            tem_node = SvmNode(google_item_dict, self.affiliation_word_list, [])
+            if tem_node.cite_url_contain_aff_word():
+                return raw_svm_value * CITE_URL_BENIFIT
+            else:
+                return raw_svm_value
+
         # if already have recommend record, return history recommend directly
         try:
             person_json = DB_ID_PERSON_JSON.Get(self.id)
@@ -119,14 +128,16 @@ class Person:
             self.svm_predict()
             with open(SVM_PREDICTION_FILE_PATH) as prediction_file:
                 max_svm_value = -999.9
+                looper = 0
                 for line in prediction_file.readlines():
-                    prediction_value = float(line)
+                    prediction_value = svm_value_considering_cite_url(float(line), self.google_item_dict_list[looper])
                     if prediction_value > max_svm_value and prediction_value > SVM_THRESHOLD:
                         max_svm_value = prediction_value
+                    looper += 1
             with open(SVM_PREDICTION_FILE_PATH) as prediction_file:
                 looper = 0
                 for line in prediction_file.readlines():
-                    prediction_value = float(line)
+                    prediction_value = svm_value_considering_cite_url(float(line), self.google_item_dict_list[looper])
                     if prediction_value == max_svm_value:
                         self.recommend_email += self.google_item_dict_list[looper]['email_addr'] + ' ' + line.replace('\n', '') + ','
                     else:
