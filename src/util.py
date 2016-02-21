@@ -38,6 +38,16 @@ def is_a_in_b(a, b):
     return False
 
 
+def prefix_is_invalid_keyword(prefix):
+        invalid_keyword_list = ['email', 'info', 'mailto', 'lastname', 'name']
+        is_invalid_prefix = False
+        for invalid_keyword in invalid_keyword_list:
+            if prefix == invalid_keyword:
+                is_invalid_prefix = True
+                break
+        return is_invalid_prefix
+
+
 # get_known_top_1000()
 
 if __name__ == '__main__':

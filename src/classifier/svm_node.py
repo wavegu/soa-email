@@ -1,22 +1,23 @@
 import re
 import os
 import sys
+from ..util import prefix_is_invalid_keyword
 reload(sys)
 sys.setdefaultencoding('utf8')
 
 
 class SvmNode:
 
-    def __init__(self, google_item_dict, aff_word_list):
+    def __init__(self, google_item_dict, aff_word_list, all_emails):
         self.addr_repeat_time = 0
         self.aff_word_list = aff_word_list
+        self.all_emails = all_emails
         self.item_dict = google_item_dict
-        self.label = True
         self.email = str(google_item_dict['email_addr']).lower()
         self.person_name = str(google_item_dict['person_name']).lower().replace('.', '')
         self.google_title = str(google_item_dict['title']).lower().replace('.', '')
         self.google_content = str(google_item_dict['content']).lower().replace('.', '')
-        self.grounding_file_path = os.path.join('..', 'result', self.person_name, 'MLN.db')
+        self.cite_url = str(google_item_dict['cite_url']).lower()
 
         self.last_name = self.person_name.replace('-', ' ').split(' ')[-1]
         self.first_name = self.person_name.replace('-', ' ').split(' ')[0]
@@ -29,7 +30,8 @@ class SvmNode:
     def google_title_contain_aff_word(self):
         contain_aff_word = False
         for aff_word in self.aff_word_list:
-            if aff_word in self.google_title.split(' '):
+            aff_word = aff_word.lower()
+            if aff_word in self.google_title.split(' ') or aff_word in self.domain or aff_word in self.cite_url:
                 contain_aff_word = True
                 break
         return contain_aff_word
@@ -51,13 +53,7 @@ class SvmNode:
         return is_contain_first_name
 
     def prefix_is_invalid_keyword(self):
-        invalid_keyword_list = ['email', 'info', 'mailto', 'lastname', 'name']
-        is_invalid_prefix = False
-        for invalid_keyword in invalid_keyword_list:
-            if self.prefix == invalid_keyword:
-                is_invalid_prefix = True
-                break
-        return is_invalid_prefix
+        return prefix_is_invalid_keyword(self.prefix)
 
     def google_title_contain_last_name(self):
         is_contain_last_name = self.last_name in self.google_title
@@ -112,6 +108,25 @@ class SvmNode:
         is_contain_name = self.person_name in self.google_content
         return is_contain_name
 
+    def domain_contain_aff_word(self):
+        is_domain_contain_aff_word = False
+        for aff_word in self.aff_word_list:
+            if aff_word.lower() in self.domain:
+                is_domain_contain_aff_word = True
+                break
+        return is_domain_contain_aff_word
+
+    def same_domain_with_invalid(self):
+        for mail in self.all_emails:
+            mail = mail.lower()
+            if mail == self.email:
+                continue
+            prefix = mail[:mail.find('@')]
+            domain = mail[mail.find('@')+1:]
+            if domain == self.domain and prefix_is_invalid_keyword(prefix) and not prefix_is_invalid_keyword(self.prefix):
+                return True
+        return False
+
     def get_svm_feature_line(self):
         feature_list = [
             self.prefix_contain_last_name(),
@@ -135,7 +150,8 @@ class SvmNode:
             self.google_title_contain_aff_word(),
             self.google_content_contain_aff_word(),
 
-            self.prefix_is_invalid_keyword()
+            self.prefix_is_invalid_keyword(),
+            self.domain_contain_aff_word()
         ]
 
         feature_line = '1 '
