@@ -83,6 +83,10 @@ class ServiceProvider:
             except KeyboardInterrupt:
                 service_log.debug_log('Service killed, see you next time !')
                 break
+            except Exception as e:
+                service_log.error_log(str(e))
+                time.sleep(G_SLEEP_SECONDS)
+                continue
 
 
 def run_email_service():
