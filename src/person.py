@@ -136,10 +136,13 @@ class Person:
                     looper += 1
             with open(SVM_PREDICTION_FILE_PATH) as prediction_file:
                 looper = 0
+                already_recommend_list = []
                 for line in prediction_file.readlines():
+                    email_addr = self.google_item_dict_list[looper]['email_addr']
                     prediction_value = svm_value_considering_cite_url(float(line), self.google_item_dict_list[looper])
-                    if prediction_value == max_svm_value:
-                        self.recommend_email += self.google_item_dict_list[looper]['email_addr'] + ' ' + line.replace('\n', '') + ','
+                    if prediction_value == max_svm_value and email_addr not in already_recommend_list:
+                        self.recommend_email += email_addr + ','
+                        already_recommend_list.append(email_addr)
                     else:
                         self.abandoned_email_list.append(self.google_item_dict_list[looper]['email_addr'] + ' ' + line.replace('\n', ''))
                     looper += 1
@@ -148,4 +151,5 @@ class Person:
 
         except Exception as e:
             service_log.error_log('Getting recommend email list:' + self.name + '\n       ' + str(e))
+        print self.recommend_email
         return self.recommend_email

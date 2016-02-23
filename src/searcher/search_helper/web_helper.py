@@ -18,7 +18,7 @@ class WebHelper:
         :param page_url: url of the page to be read
         :return: page_content
         """
-        print 'getting content from [' + page_url + ']'
+        # print 'getting content from [' + page_url + ']'
         try:
             proxy_ip = 'http://:@' + proxyHelper.choose_proxy()
             proxy = urllib2.ProxyHandler({'http': 'http://:@' + str(proxy_ip)})

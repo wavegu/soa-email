@@ -1,11 +1,15 @@
 import leveldb
+import datetime
 from os.path import join
 from util import create_dir_if_not_exist
 
+import sys
+sys.dont_write_bytecode = True
 
 # log
 LOG_DIR = join('..', 'log')
-DEFAULT_LOG_PATH = join(LOG_DIR, 'log.txt')
+dt = datetime.datetime
+DEFAULT_LOG_PATH = join(LOG_DIR, 'log'+datetime.datetime.now().strftime("-%d.%B.%Y-%I:%M%p")+'.txt')
 create_dir_if_not_exist(LOG_DIR)
 
 # leveldb

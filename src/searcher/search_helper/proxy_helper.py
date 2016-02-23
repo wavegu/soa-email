@@ -38,6 +38,8 @@ class ProxyHelper:
             opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
             opener.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 6.1 WOW64 rv:23.0) Gecko/20130406 Firefox/23.0')]
             f = opener.open(test_url)
+            # print 'proxy_ip is ', proxy_ip
+            # print 'From argcv', f.read()
         except Exception as e:
             print "Proxy " + proxy_ip + " fails!", e
             return False

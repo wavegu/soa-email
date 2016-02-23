@@ -17,7 +17,7 @@ class PageSearcher:
 
     def get_google_page(self, person_name):
         name = person_name.replace('\n', '')
-        print '******', name, '*******'
+        # print '******', name, '*******'
         try:
             search_page_content = GoogleHelper.get_search_page_by_name(name + ' ' + self.keyword)
             if search_page_content is None:
@@ -27,15 +27,11 @@ class PageSearcher:
                     for missing_name in self.error_name_list:
                         missing_name_file.write(str(missing_name) + '\n')
                 return ''
-            print name, 'OK...'
+            # print name, 'OK...'
             time.sleep(random.randint(1, 3))
 
         except Exception as e:
             print e
-            self.error_name_list.append(name)
-            # with open(self.result_path + 'missing_name.txt', 'w') as missing_name_file:
-            #     for missing_name in self.error_name_list:
-            #         missing_name_file.write(str(missing_name) + '\n')
             return ''
         return search_page_content
 
