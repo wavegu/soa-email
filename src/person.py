@@ -25,7 +25,11 @@ class Person:
         self.is_test = is_test
         self.id = str(person_dict['id'])
         self.name = str(person_dict['name'])
-        self.affiliation = str(person_dict['org'])
+
+        if 'org' not in person_dict:
+            self.affiliation = ''
+        else:
+            self.affiliation = str(person_dict['org'])
 
         self.google_page_content = ''
         self.google_item_dict_list = []
@@ -35,6 +39,8 @@ class Person:
         from classifier.aff_words_extractor import AffWordsExtractor
         extractor = AffWordsExtractor(os.path.join('..', 'resource', 'aff_stopwords.txt'))
         self.affiliation_word_list = extractor.get_aff_words_list(self.affiliation)
+
+        service_log.success_log('Constructing person ' + self.name)
 
     def __get_google_page__(self):
         service_log.debug_log('Getting google page content:' + self.name)

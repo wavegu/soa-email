@@ -36,10 +36,10 @@ class AminerEmailService:
             if not return_status:
                 # service_log.error_log('Aminer server error:' + return_dict['message'])
                 return []
-            service_log.success_log('Get task_person_list')
             for person_dict in return_dict['tasks']:
                 print person_dict
             self.task_person_list = [Person(person_dict) for person_dict in return_dict['tasks']]
+            service_log.success_log('Get task_person_list')
 
     def recommend_and_submit(self):
         name_email_dict = {}

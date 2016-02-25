@@ -12,6 +12,15 @@ class AffWordsExtractor:
 
     def get_aff_words_list(self, aff):
 
+        is_eng = False
+        for ch in aff:
+            if ch.isalpha():
+                is_eng = True
+                break
+
+        if not is_eng:
+            return []
+
         aff = aff.replace('\n', ' ').lower()
         # aff = aff.replace('.', ' ').replace(',', ' ').replace('|', ' ')
         # aff = aff.replace('(', ' ').replace(')', ' ')
