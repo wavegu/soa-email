@@ -40,8 +40,6 @@ class Person:
         extractor = AffWordsExtractor(os.path.join('..', 'resource', 'aff_stopwords.txt'))
         self.affiliation_word_list = extractor.get_aff_words_list(self.affiliation)
 
-        service_log.success_log('Constructing person ' + self.name)
-
     def __get_google_page__(self):
         service_log.debug_log('Getting google page content:' + self.name)
         if self.is_test:

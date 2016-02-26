@@ -12,7 +12,7 @@ class ServiceLog:
     def get_log_sentence(self, log_type, content, suffix=''):
         log_sentence = self.log_template.replace('<TIME>', str(datetime.now())).replace('<TYPE>', log_type)\
             .replace('<SUFFIX>', suffix).replace('<CONTENT>', content)
-        print log_sentence
+        print log_sentence.replace('\n', '')
         return log_sentence
 
     def debug_log(self, content):

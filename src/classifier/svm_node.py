@@ -19,8 +19,17 @@ class SvmNode:
         self.google_content = str(google_item_dict['content']).lower().replace('.', '')
         self.cite_url = str(google_item_dict['cite_url']).lower()
 
-        self.last_name = self.person_name.replace('-', ' ').split(' ')[-1]
-        self.first_name = self.person_name.replace('-', ' ').split(' ')[0]
+        last_name_pos = -1
+        self.last_name = self.person_name.replace('-', ' ').split(' ')[last_name_pos]
+        while not self.last_name:
+            last_name_pos -= 1
+            self.last_name = self.person_name.replace('-', ' ').split(' ')[last_name_pos]
+        first_name_pos = 0
+        self.first_name = self.person_name.replace('-', ' ').split(' ')[first_name_pos]
+        while not self.first_name:
+            first_name_pos += 1
+            self.first_name = self.person_name.replace('-', ' ').split(' ')[first_name_pos]
+
         self.first_char_list = [name[0] for name in self.person_name.replace('-', '').split(' ')]
 
         self.domain = self.email[self.email.find('@')+1:]
@@ -91,12 +100,12 @@ class SvmNode:
     def prefix_contained_in_name_part_with_first_char(self):
         first_name_with_first_char = self.last_name[0] + self.first_name
         last_name_with_first_char = self.first_name[0] + self.last_name
-
         last_name_with_all_first_char = ''
         for name_part in self.person_name.split(' ')[:-1]:
+            if not name_part:
+                continue
             last_name_with_all_first_char += name_part[0]
         last_name_with_all_first_char += self.last_name
-
         is_prefix_contained = self.prefix in first_name_with_first_char or self.prefix in last_name_with_first_char or self.prefix in last_name_with_all_first_char
         return is_prefix_contained
 

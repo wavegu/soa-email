@@ -28,16 +28,13 @@ class AminerEmailService:
         else:
             import urllib
             query_url = 'http://alpha.api.aminer.org/api/fusion/person/ctasks/email/s/' + str(size)
-            print query_url
             return_content = urllib.urlopen(query_url).read()
-            print return_content
+            service_log.debug_log('Getting server response:'+return_content)
             return_dict = json.loads(return_content)
             return_status = return_dict['status']
             if not return_status:
                 # service_log.error_log('Aminer server error:' + return_dict['message'])
                 return []
-            for person_dict in return_dict['tasks']:
-                print person_dict
             self.task_person_list = [Person(person_dict) for person_dict in return_dict['tasks']]
             service_log.success_log('Get task_person_list')
 
