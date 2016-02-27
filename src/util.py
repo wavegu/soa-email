@@ -38,6 +38,20 @@ def is_a_in_b(a, b):
     return False
 
 
+def clean_head_and_tail(s):
+        if not s:
+            return ''
+        head_pos = 0
+        while head_pos < len(s)-1 and not s[head_pos].isalpha():
+            head_pos += 1
+        tail_pos = -1
+        while tail_pos > -1 and not s[tail_pos].isalpha():
+            tail_pos -= 1
+        if tail_pos == -1:
+            return s[head_pos:]
+        return s[head_pos: tail_pos+1]
+
+
 def prefix_is_invalid_keyword(prefix):
         invalid_keyword_list = ['email', 'info', 'mailto', 'lastname', 'name']
         is_invalid_prefix = False
