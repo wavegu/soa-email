@@ -22,6 +22,7 @@ class AminerEmailService:
         self.post_url = 'http://alpha.api.aminer.org/api/fusion/person/ctasks/email'
 
     def get_task_person_list(self, size):
+        global G_SLEEP_SECONDS
         if G_IS_TEST:
             with open('../resource/test/test_person_list.json') as json_file:
                 self.task_person_list = [Person(person_dict, is_test=True) for person_dict in json.load(json_file)]
@@ -33,8 +34,11 @@ class AminerEmailService:
             return_dict = json.loads(return_content)
             return_status = return_dict['status']
             if not return_status:
+                if G_SLEEP_SECONDS < 31:
+                    G_SLEEP_SECONDS += 10
                 # service_log.error_log('Aminer server error:' + return_dict['message'])
                 return []
+            G_SLEEP_SECONDS = 10
             self.task_person_list = [Person(person_dict) for person_dict in return_dict['tasks']]
             service_log.success_log('Get task_person_list')
 
