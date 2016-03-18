@@ -124,6 +124,7 @@ class Person:
             else:
                 service_log.success_log('Recommend email list already in:' + self.name)
                 return self.recommend_email
+            
         # if no history record
         except KeyError:
             service_log.debug_log('Getting recommend email list:' + self.name)
