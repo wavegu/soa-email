@@ -127,6 +127,11 @@ class Person:
         # if no history record
         except KeyError:
             service_log.debug_log('Getting recommend email list:' + self.name)
+
+            if not self.name[0].isalpha():
+                service_log.error_log('No chinese name support now:' + self.name)
+                return ''
+
             self.recommend_email = ''
             self.get_google_item_dict_list()
             self.svm_predict()
