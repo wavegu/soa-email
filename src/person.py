@@ -26,6 +26,9 @@ class Person:
         self.id = str(person_dict['id'])
         self.name = str(person_dict['name'])
 
+	while self.name.find('  ') > -1:
+		self.name = self.name.replace('  ', ' ')
+
         if 'org' not in person_dict:
             self.affiliation = ''
         else:
