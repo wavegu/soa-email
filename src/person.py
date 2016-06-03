@@ -3,7 +3,7 @@ import os
 import json
 import leveldb
 
-from src import g, server
+from __init__ import g, server
 from classifier.svm_node import SvmNode
 from searcher.google_item_parser import GoogleItemParser
 from constants import DB_PATH_ID_PERSON_JSON

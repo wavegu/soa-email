@@ -4,7 +4,7 @@ from constants import DB_PATH_ID_PERSON_JSON
 from person import Person
 from flask import request
 from service_log import service_log
-from src import SERVER_IP, SERVER_PORT, server, g
+from __init__ import SERVER_IP, SERVER_PORT, server, g
 
 
 def request_to_dict(http_request):
