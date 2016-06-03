@@ -1,11 +1,12 @@
 # encoding: utf-8
 import os
 import json
+import leveldb
 
-from util import is_a_in_b
+from src import g, server
 from classifier.svm_node import SvmNode
 from searcher.google_item_parser import GoogleItemParser
-from constants import DB_ID_PERSON_JSON
+from constants import DB_PATH_ID_PERSON_JSON
 from constants import SVM_LOG_PATH
 from constants import SVM_MODEL_PATH
 from constants import SVM_CLASSIFIER_PATH
@@ -23,16 +24,16 @@ class Person:
 
     def __init__(self, person_dict, is_test=False):
         self.is_test = is_test
-        self.id = str(person_dict['id'])
+        self.id = str(person_dict['name'])
         self.name = str(person_dict['name'])
+        self.affiliation = ''
+        print self.name + ':name'
 
-	while self.name.find('  ') > -1:
-		self.name = self.name.replace('  ', ' ')
+        while self.name.find('  ') > -1:
+            self.name = self.name.replace('  ', ' ')
 
-        if 'org' not in person_dict:
-            self.affiliation = ''
-        else:
-            self.affiliation = str(person_dict['org'])
+            if 'org' in person_dict:
+                self.affiliation = str(person_dict['org'])
 
         self.google_page_content = ''
         self.google_item_dict_list = []
@@ -119,18 +120,18 @@ class Person:
 
         # if already have recommend record, return history recommend directly
         try:
-            person_json = DB_ID_PERSON_JSON.Get(self.id)
+            person_json = g.DB_ID_PERSON_JSON.Get(self.id)
             person_dict = json.loads(person_json)
             self.recommend_email = person_dict['recommend_email']
-            if not self.recommend_email:
-                raise KeyError
-            else:
-                service_log.success_log('Recommend email list already in:' + self.name)
-                return self.recommend_email
+            # if not self.recommend_email:
+            #     raise KeyError
+            # else:
+            service_log.success_log('Recommend email list already in:' + self.name)
+            return self.recommend_email
 
         # if no history record
         except KeyError:
-            service_log.debug_log('Getting recommend email list:' + self.name)
+            service_log.debug_log('Getting recommend email list:' + self.id)
 
             # do not support chinese name for now
             if not self.name[0].isalpha():
@@ -166,4 +167,5 @@ class Person:
         except Exception as e:
             service_log.error_log('Getting recommend email list:' + self.name + '\n       ' + str(e))
         print self.recommend_email
+        g.DB_ID_PERSON_JSON.Put(str(self.id), self.to_json())
         return self.recommend_email
